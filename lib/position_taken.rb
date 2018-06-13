@@ -7,6 +7,6 @@ def position_taken?(board, index)
  elsif board[index] == 1 || 2 || 3 || 4 || 5 || 6 || 7 || 8 || 9
    return true
  else 
-   true
+   false
 end
 end
